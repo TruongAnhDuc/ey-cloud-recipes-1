@@ -6,9 +6,8 @@
 #
 # Examples below:
 
-default[:packages] = ([
-                          {:name => "app-text/ghostscript-gpl", :version => "8.64-r2"},
-                          {:name => "net-print/cups", :version => "1.3.8-r2"},
-                          {:name => "media-gfx/imagemagick", :version => "6.9.0.3"}
-                      ])
-
+packages([
+             {:name => "app-text/ghostscript-gpl", :version => "8.64-r2"},
+             {:name => "net-print/cups", :version => "1.3.8-r2"},
+             {:name => "media-gfx/imagemagick", :version => "6.9.0.3"}
+         ])
